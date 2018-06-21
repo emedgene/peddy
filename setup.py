@@ -37,6 +37,19 @@ setup(
         ],
     ),
     include_package_data=True,
+    install_requires=[
+        'numpy',
+        'cython',
+        'cyvcf2>=0.5.3',
+        'networkx',
+        'pandas',
+        'matplotlib>=1.5.0',
+        'scikit-learn',
+        'toolshed',
+        'click',
+        'coloredlogs',
+        'seaborn'
+    ],
     tests_require='nose',
     classifiers=[
             'Development Status :: 4 - Beta',
