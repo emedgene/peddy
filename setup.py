@@ -22,7 +22,7 @@ setup(
     name='peddy',
     description="pleasingly pythonic pedigree manipulation",
     packages=['peddy', 'peddy.tests'],
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     author="Brent Pedersen",
     author_email="bpederse@gmail.com",
     zip_safe=False,
